@@ -42,12 +42,12 @@ const Header = () => {
 
   return (
     <div className="absolute flex justify-between w-screen px-8 py-2 bg-gradient-to-b from-black z-10">
-      <img className="w-44 " src={LOGO} alt="logo" />
+      <img className="w-40 " src={LOGO} alt="logo" />
       <div className="flex">
         {isBrowsePage && (
           <button
             onClick={handleSignOut}
-            className="bg-red-500 border border-white rounded-lg text-white p-2 pt-1 m-2"
+            className="bg-red-500 border border-white rounded-lg text-white pt-1 px-2 py-0 m-4 pb-1"
           >
             Sign Out
           </button>
